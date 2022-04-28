@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{f6ce839a-659f-495e-a56e-dd0740f965c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image_Filters">
+      <UniqueIdentifier>{a8c3f224-b268-4d34-a6e7-638f965274eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image_filters_cpp">
+      <UniqueIdentifier>{a5e6e04e-ce26-4ef8-a586-9b605e0613de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility_cpp">
+      <UniqueIdentifier>{f320f5d8-fce4-478b-b5e6-ce4a158229c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main_cpp">
+      <UniqueIdentifier>{9881b282-5183-4da8-95dd-6fa7afc874ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test_images">
+      <UniqueIdentifier>{813778c9-bad0-4b22-8e34-7a23745081c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{516c26c1-0545-4cc4-95b6-54006e0907fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{2a1141de-6269-472c-948f-c3173bc7d88e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Size.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Project extrapoints 2.cpp">
+      <Filter>Source Files\Main_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Brightness_and_Contrast.cpp">
+      <Filter>Source Files\Image_filters_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Convolution.cpp">
+      <Filter>Source Files\Image_filters_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaCorrection.cpp">
+      <Filter>Source Files\Image_filters_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Brush.cpp">
+      <Filter>Source Files\Utility_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Size.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Point.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Rectangle.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Brightness_and_Contrast.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_GammaCorrection.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Image.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Vector2D.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Brightness_and_Contrast.h">
+      <Filter>Header Files\Image_Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessor.h">
+      <Filter>Header Files\Image_Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution.h">
+      <Filter>Header Files\Image_Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaCorrection.h">
+      <Filter>Header Files\Image_Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brush.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Size.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_ALL.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Point.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Rectangle.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Brightness_and_Contrast.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_GammaCorrection.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Image.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Vector2D.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
