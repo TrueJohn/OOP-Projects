@@ -1,0 +1,13 @@
+#pragma once
+
+#include "FilteringPrice.h"
+#include "FilteringType.h"
+
+class FilteringCriteriaTypeAndPrice : public FilteringCriteria {
+private:
+	FilteringPrice byPrice;
+	FilteringType byType;
+public:
+	FilteringCriteriaTypeAndPrice(unsigned int, offer_type);
+	DynamicArray<Offer> filter(DynamicArray<Offer>& data);
+};
